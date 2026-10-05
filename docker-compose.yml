@@ -1,0 +1,13 @@
+services:
+  aicbm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aicbm:local
+    command: ["validate", "examples/plan.json", "--json"]
+    network_mode: none
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

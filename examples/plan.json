@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "region": {"min_x": 0, "min_z": 0, "max_x": 128, "max_z": 128},
+  "min_y": 0,
+  "max_y_exclusive": 256,
+  "protected": [{"min_x": 90, "min_z": 90, "max_x": 110, "max_z": 110}],
+  "buildings": [
+    {"id": "house-1", "footprint": {"min_x": 10, "min_z": 10, "max_x": 25, "max_z": 25}, "base_y": 64, "height": 12},
+    {"id": "house-2", "footprint": {"min_x": 30, "min_z": 10, "max_x": 45, "max_z": 25}, "base_y": 64, "height": 18}
+  ]
+}
